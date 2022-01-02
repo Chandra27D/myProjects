@@ -1,0 +1,137 @@
+
+/* Navbar */
+
+#logo_image{
+    margin: 0px;
+    width: 55px;
+    height: 47px;
+}
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li{
+    margin: 3px;
+}
+
+#navbar ul li a{
+    font-size: 10px;
+    padding: 2px;
+}
+
+/* Home */
+
+#home p{
+    font-size: 12px;
+}
+
+/* #home::before{
+    height: 224%;
+} */
+
+/* Services */
+#services {
+    flex-direction: column;  
+}
+.box{
+    margin: 2px 0px;
+}
+.box img{
+    width: 140px;
+    height: 80px;
+    margin: 5px 2px;
+}
+
+.box p{
+    font-size: 10px;
+}
+
+.box h2{
+    font-size: 12px;
+}
+
+/* Clients */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients::before{
+    height: 131.5%;
+}
+
+#clients img{
+    width: 50px;
+    height: 50px;
+    border-radius: 11px;
+}
+/* Contact */
+
+#contact-box{
+    width: 100%;
+    margin: 0px;
+}
+
+#contact-box::before{
+    border-radius: 0px;
+    height: 103%;
+}
+#contact-box textarea{
+    width: 94%;
+}
+#contact-box input{
+    width: 70%;
+}
+
+#radio input{
+    display: inline-block;
+    width: 35px;
+}
+
+.form-group #submit{
+    width: 20%;
+    padding: 3px auto;
+    margin: 10px auto;
+}
+
+@media (max-width: 350px){
+    footer{
+        height: 7%;
+    }
+}
+
+/* Galaxy Fold */
+
+@media (max-width:300px){
+    #navbar ul li a{
+        font-size: 7px;
+        padding: 2px;
+    }
+
+    #home p{
+        font-size: 10px;
+    }
+
+    .h-primary{
+        font-size: 13px;
+        margin: 2px 0px;
+    }
+    
+}
+
+
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 15px;
+    margin: 2px 0px;
+}
+
+.btn{
+    width: 70px;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
