@@ -1,24 +1,34 @@
 {
     "blogs": [
-      { "title": "My Encounter with Voldemort", 
+      { 
+         "title": "My Encounter with Voldemort", 
         "body": "He is so mean and filthy", 
         "author": "Harry Potter", 
-        "id": 1 },
-    { "title": "Why I hate Ron?", 
+        "id": 1 
+      },
+    { 
+       "title": "Why I hate Ron?", 
       "body": "He is too stupid and does not understand even a single thing about love", 
       "author": "Hermione Granger", 
-      "id": 2 },
-    { "title": "My Broken Wand", 
+      "id": 2 
+    },
+    { 
+       "title": "My Broken Wand", 
       "body": "I do not why I am like this. Anything that I use kinda need reair the next time", 
       "author": "Ron Weasley", 
-      "id": 3 },
-    { "title": "Experiment with Memory", 
+      "id": 3 
+    },
+    { 
+       "title": "Experiment with Memory", 
       "body": "I have been faking through all those times, I have actually very sharp memomy but the Hogwarts is so freaking scary that I do not want to keep anything in my memomry", 
       "author": "Neville Longbottom", 
-      "id": 4 },
-    { "title": "Courage and Winning", 
+      "id": 4 
+    },
+    { 
+       "title": "Courage and Winning", 
       "body": "Any battle can be defeated with courage and perseverance", 
       "author": "Harry Potter", 
-      "id": 5 }
+      "id": 5 
+    }
     ]
   }
