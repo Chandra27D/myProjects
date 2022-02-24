@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+        <a>Time: <span id="timer">50</span></a> 
+    </header>
+    <main>
+        <div id="container">
+            <div id="start-screen">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code related questions within the time limit.</p>
+                <p>Keep in mind that incorrect answers will penalize your score/time by ten seconds.</p>
+                <button id="start-btn" class="btn" onclick="startQuiz()">Start Quiz</button>
+            </div>
+            <div id="question-container" class="hide">
+                <h2 id="question">Question</h2>
+                <div id="option-container"></div>
+                <div id="answer"></div>
+                <button id="next-btn" class="btn">Skip</button>
+            </div>
+            <div id="score-card" class="hide">
+                <h2>Score Card</h2>
+                <h4>High Score: <span id="high-score"></span></h4>
+                <h4>Your Score: <span id="score"></span> </h4>
+                <button id="go-back" class="btn">Go Back</button>
+            </div>
+            <div id="done-screen" class="hide">
+                <h2>Quiz Complete!</h2>
+                <p>Enter your name to view the Score Card</p>
+                <div id="data-input">
+                    <input type="text" name="" id="name" placeholder="Your name...">
+                    <button id="submit-btn" class="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
