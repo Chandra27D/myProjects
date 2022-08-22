@@ -1,5 +1,5 @@
 # myProjects
-I am creating a lot of projects as a part of my coding learning. Suggestions are always welcome!
+I am creating a few of projects as a part of my coding learning. Suggestions are always welcome!
 Here are the name of the projects I have recently created:
 
 1. Navbar using Flexbox
